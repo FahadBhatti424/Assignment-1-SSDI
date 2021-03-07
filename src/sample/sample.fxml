@@ -18,5 +18,9 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
         </columnResizePolicy>
     </TableView>
+    <TextField id="Accuracy" promptText="Accuracy" fx:id="Accuracy" AnchorPane.bottomAnchor="55" AnchorPane.leftAnchor="75" />
+    <TextField id="precision" promptText="precision" fx:id="precision" AnchorPane.bottomAnchor="15" AnchorPane.leftAnchor="75" />
+    <Text  text = "Accuracy:" AnchorPane.bottomAnchor="60" AnchorPane.leftAnchor="10"/>
+    <Text  text = "precision:" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="10"/>
 
 </AnchorPane>
