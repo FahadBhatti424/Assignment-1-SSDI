@@ -22,7 +22,7 @@ public class Controller {
         File.setCellValueFactory(new PropertyValueFactory<>("filename"));
         Type.setCellValueFactory(new PropertyValueFactory<>("actualClass"));
         SpamProbability.setCellValueFactory(new PropertyValueFactory<>("spamProbability"));
-        tabview1.setItems(DataSource.getAllFile());
+
     }
 
 }
