@@ -9,7 +9,7 @@ This program will eliminate your spam and filter you email to ensure you only se
 
 
 # Improvements:
-We add s
+We added multple setup that inhance the code makes it more user friendly 
 
 
 # Created BY:
