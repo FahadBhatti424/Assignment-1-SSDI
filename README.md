@@ -1,6 +1,6 @@
 # Assignment-1-SSDI
 
-Spam Detector D:
+# Spam Filterer:
 Remove Your Dirty Spam
 Spam Detector will detect your spam!
 
