@@ -30,14 +30,17 @@ public class Main extends Application {
         File mainDirectory = directoryChooser.showDialog(primaryStage);
 
         File path = new File(String.valueOf(mainDirectory));
-        WordCounter wordCounter = new WordCounter();
+        WordCounter wordCounterspam = new WordCounter();
+        WordCounter wordCounterham = new WordCounter();
+
 
         File[] files = path.listFiles();
 
         for (int i = 0; i < files.length; i++) {
             if (files[i].isFile()) { //this line weeds out other directories/folders
                 try {
-                    wordCounter.parseFile(files[i]);
+                        wordCounterspam.parseFile(files[i]);
+                        System.out.println(files[i].getParentFile().getName());
 
                 } catch (FileNotFoundException e) {
                     System.err.println("Invalid input dir: " + String.valueOf(mainDirectory));
@@ -47,6 +50,13 @@ public class Main extends Application {
                 }
             }
         }
+
+        //go through the wordcount and find the probability of each word;
+         Map<String, Integer> WordCounts = wordCounter.getWordCount();
+         for(Map.Entry<String,Integer> entry : WordCounts.entrySet()){
+             System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+         }
+
     }
 
     public static void main(String[] args) { launch(args); }

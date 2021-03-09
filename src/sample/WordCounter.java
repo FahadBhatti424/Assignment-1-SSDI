@@ -4,7 +4,7 @@ import java.util.*;
 
 public class WordCounter {
     private Map<String, Integer> wordCounts;
-    private Set<String> set  = new HashSet<>();
+
     public WordCounter() {
         wordCounts = new TreeMap<>();
     }
