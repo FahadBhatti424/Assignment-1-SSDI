@@ -19,9 +19,7 @@ public class TestFile{
     private Map<String, Double> PrSWi;
     private Map<String, Double> PrWiS;
     private Map<String, Double> PrWiH;
-
-
-
+    
     public static double numTruePos = 0.0;
     public static double numTrueNeg = 0.0;
     public static double numFalsePos = 0.0;

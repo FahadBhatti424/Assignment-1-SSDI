@@ -6,7 +6,7 @@ import javafx.collections.ObservableList;
 import java.io.File;
 
 public class DataSource {
-    public static ObservableList<TestFile> getAllFile() {
+    public static <TestFile> ObservableList<TestFile> getAllFile() {
         ObservableList<TestFile> Spam_Files = FXCollections.observableArrayList();
 
 
