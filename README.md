@@ -11,7 +11,7 @@ This program will eliminate your spam and filter you email to ensure you only se
 # Improvements:
 We added multple setup that inhance the code makes it more user friendly 
 
-#How To Run Code:
+# How To Run Code:
 1. open sample in terminal 
 2. write javac TestFile.java
 3. then write java TestFile train/ham train/spam test/ham test/spam
